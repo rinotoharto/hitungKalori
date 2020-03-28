@@ -1,0 +1,85 @@
+body{
+    background-color: #F0F4E8;
+}
+
+.logo{
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 100%;
+}
+
+
+.logo img {
+    padding: 0px;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#main {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 15%;
+    padding: 5px 10px;
+    font-family: nunito;
+    
+}
+
+
+#form{
+    height: auto;
+    border-radius: 50px;
+    margin: 35px 25% ;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+#form input{
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+}
+
+.submit {
+    border-radius: 15px;
+    background-color: lightblue;
+    height: 30px;
+    width: 100px;
+}
+
+.form-kalori label {
+    margin: 10px;
+}
+
+#level {
+    border-radius: 5px;
+    margin: 15px;
+    height: 25px;
+    width: 60%;
+    background-color: white;
+}
+
+.hasil{
+    background-color: white;
+    text-align: center;
+    height: auto;
+    margin: 35px 10% ;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+#form img {
+    width: 100px;
+    height: 100px;
+}
+
+#note {
+    font-size: 12px;
+    text-align: center;
+}

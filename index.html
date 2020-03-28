@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+2|Nunito|Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Hitung Kalori</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="logo">
+                <img src="cal.jpg">
+            </div>
+        </header>
+        <!-- akhir header -->
+
+        <!-- paragraf -->
+        <div id="main">
+            <h1>Hitung kebutuhan Kalori anda</h1>
+            <p><strong>Kebutuhan kalori harian</strong> adalah jumlah kalori yang dibutuhkan oleh tubuh Anda setiap hari, untuk menjalankan fungsi utama tubuh, dan untuk melakukan aktivitas sehari-hari.</p>
+            <p><strong>Apa itu BMR?</strong><br>
+                <em>Basal Metabolic Rate</em> (BMR) adalah kebutuhan kalori yang tubuh Anda butuhkan untuk melakukan aktivitas basal nya. Saat Anda sedang tidur atau duduk dan sedang tidak melakukan aktivitas apapun, maka sebenarnya tubuh tetap melakukan aktivitasnya. Aktivitas yang dilakukan tubuh seperti memompa jantung, mencerna makanan, bernapas, memperbaiki sel tubuh, membuang racun dalam tubuh, mempertahankan suhu tubuh, dan lain sebagainya.<br><br>
+                Namun, BMR saja tidak cukup untuk mengetahui kebutuhan kalori harian Anda karena BMR tidak mempertimbangkan faktor aktivitas fisik. Tubuh Anda juga membutuhkan energi (kalori) untuk melakukan berbagai aktivitas fisik sehari-hari, seperti berjalan, bekerja, dan berolahraga.</p>
+            <p><strong>Apa itu TDEE?</strong><br><em>Total Daily Energy Expenditur</em> (TDEE), yaitu jumlah energi yang dikeluarkan oleh tubuh. TDEE itu merupakan total dari kedua energi yang dikeluarkan. Jadi TDEE adalah kebutuhan kalori dari BMR ditambah Aktivitas yang dilakukan.</p>
+        </div>
+        <!-- akhir paragraf -->
+
+        <div id="form">
+            <h2>Untuk menghitung kebutuhan kalori anda,<br>silahkan isi data di bawah ini</h2>
+            <!-- form -->
+            <form class="form-kalori">
+                <label><input id="rd1" type="radio" class ="jk" name="jenis_kelamin" value="male" /><img src="male.png"/></label>
+                <label><input id="rd2" type="radio" class="jk" name="jenis_kelamin" value="female" /><img src="female.png"/></label><br>                 
+                <label>Tinggi Badan (cm)</label><br>
+                <input type="text" id="tinggi" placeholder="Tinggi Badan Anda" required/><br>
+                <label>Berat Badan (Kg)</label><br>
+                <input type="text" id="berat" placeholder="Berat Badan Anda" required/><br>
+                <label>Usia</label><br>
+                <input type="text" id="usia" placeholder="Usia Anda" required/><br>
+                <label>Level Aktivitas Fisik</label><br>
+                <select id="level">
+                    <option value="1">Sedenter (minim aktivitas fisik, jarang / tdk pernah olahraga)</option>
+                    <option value="2">Cukup aktif (berolahraga 1-3 kali / minggu)</option>
+                    <option value="3">Aktif (berolahraga 3-5 kali / minggu)</option>
+                    <option value="4">Sangat aktif (berolahraga 6-7 kali / minggu)</option>
+                </select><br>
+                <input type="button" class="submit" value="hitung">
+                <div class="hasil"><p></p>
+                </div>
+            </form>
+        </div>
+        <!-- akhir form input -->
+        <div id="note">
+            <p>NOTE : Hasil cek kesehatan ini hanya dapat digunakan sebagai informasi tambahan, tidak bisa menggantikan saran medis, diagnosis, dan pengobatan dari dokter.</p>
+        </div>
+   
+        <script src="script.js"></script>
+    </body>
+</html>
